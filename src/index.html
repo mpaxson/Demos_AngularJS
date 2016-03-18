@@ -1,13 +1,20 @@
 <!doctype html>
 <html ng-app="app">
+<!-- example demo from watchandcode.com angular course-->
     <head>
         <meta charset ="utf-8">
         <title>Angular Js Demo</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+       
+        <!--custom css -->
+        <link rel="stylesheet" href="content/css/app.css"/>
+
     </head>
     <body>
-        this is the body
+
+        <!-- Main content that changes based on the route -->
+        <ng-view></ng-view>
         
 
         <!--Third-party JS-->
@@ -20,6 +27,10 @@
 
         <!-- main app module-->
         <script src = "app/app.module.js"></script>
+        
+        <!-- landing module-->
+        <script src="app/landing/landing.module.js"></script>
+        <script src = "app/landing/config.route.js"></script>
         
     </body>
 </html>
