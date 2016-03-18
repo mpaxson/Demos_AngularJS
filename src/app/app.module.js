@@ -8,6 +8,9 @@
 
             //third party modules
             'firebase'
+        
+            //our modules
+            
         ]);
     
 })();
