@@ -29,6 +29,8 @@
         
         function addParty(){
             vm.parties.$add(vm.newParty);
+            //clears form     
+            vm.newParty = new Party(); 
         }     
     }
     
