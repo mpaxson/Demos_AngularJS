@@ -3,15 +3,15 @@
     
     angular
         .module('app', [
-            //angular modules.
-            'ngRoute',
+        // Angular modules.
+        'ngRoute',
 
-            //third party modules
-            'firebase',
-        
-            //Custom modules
-            'app.landing',
-            'app.waitList'
+        // Third party modules.
+        'firebase',
+
+        // Custom modules.
+        'app.landing',
+        'app.waitList'
         ]);
     
 })();
