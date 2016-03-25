@@ -38,10 +38,9 @@ assets/
 test/
 karma.conf.js
 index.html
+```
+Here, in test and karma.conf.js will include what we need. So in test when ever you a create a service, controller or anything else, make a duplicate *****.js file in the test folder following the same format as app. This can create different test cases for you to run whenever changes have been made to the site
 
-```
-Here, in test and karma.conf.js will include what we need. So in test when ever you a serice, controller or anything else, make a duplicate test .js file in tests
-```
 
 #### copyright
 ### Code and information to make this project was found using Ben Drucker's guide on angular js and karma found [here][e18bf266]
