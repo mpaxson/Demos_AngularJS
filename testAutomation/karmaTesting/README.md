@@ -39,7 +39,9 @@ test/
 karma.conf.js
 index.html
 ```
+
 Here, in test and karma.conf.js will include what we need. So in test when ever you a create a service, controller or anything else, make a duplicate *****.js file in the test folder following the same format as app. This can create different test cases for you to run whenever changes have been made to the site
+
 ----
 
 After including everything necessary all you need to do is run 'karma start' in the terminal and a similar output will be displayed as below:
@@ -53,6 +55,8 @@ kettle@OfKetchup:~/git_repos/Demos_AngularJS/testAutomation/project$ karma start
 Chrome 49.0.2623 (Linux 0.0.0): Executed 8 of 8 SUCCESS (0.008 secs / 0.009 secs)
 
 ```
+
+---
 
 ### Shout Outs
 ##### Alot of code and information to make this project was found using Ben Drucker's guide on angular js and karma found [here][e18bf266]
